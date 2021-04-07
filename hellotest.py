@@ -1,5 +1,7 @@
 from flask import Flask
-app = Flask (__name__)
+
+app = Flask(__name__)
+
 @app.route('/')
 def Home():
     return "6006021610040 ธงชัย หนำเหรี๊ยบ"
